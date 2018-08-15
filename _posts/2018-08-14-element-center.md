@@ -1,6 +1,6 @@
 ---
 title: 元素居中的问题
-layout: default
+layout: post
 ---
 
 ## 垂直居中（我们外层一定有一个div，这个div有高宽）

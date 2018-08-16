@@ -1,6 +1,6 @@
 ---
 title: 元素居中的问题
-layout: post
+layout: default
 categories: css
 permalink: /:categories/
 ---

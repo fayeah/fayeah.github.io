@@ -43,12 +43,12 @@ permalink: /:categories/
 
   当一行的文本小于等于父元素的宽度时，用`line-height`来实现时没有太大问题的，但是，如果超出这行会发生什么（下图是当我把`outer`宽度改为`60px`，`inner`的文本改长一点时`abc1艰苦奋斗`的情况）：
 
-  ![Image]('../assets/inner-text-too-long.png')
+  ![inner-image-too-long]({{ "/assets/inner-text-too-long.png" | absolute_url }})  
 
   折行的文本被挤下来了，这个时候我们该怎么办呢？
   首先介绍下`line-height`是啥，  
   > line-height CSS 属性用于设置多行元素的空间量，比如文本。该属性值最好用数字，否则可能会产生不确定值。  
-  
+
   具体定义参考[MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/line-height)。  
   也就是说`line-height`的存在并非是让我们用来垂直居中的，只是偶然巧合我们可以利用它来实现。来讲第二种方式。
 

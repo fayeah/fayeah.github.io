@@ -7,8 +7,8 @@ permalink: /:categories/
 
 ## 垂直居中（我们外层一定有一个 div，这个 div 有高宽）
 ### 第一种情况
-- 内部元素是一个div 
-`<div class="outer"><div class="inner">vertical</div></div>`
+- 内部元素是一个div   
+    `<div class="outer"><div class="inner">vertical</div></div>`
 那么我们只需要给inner一个与outer高度相等的line-height就可以实现：
 `
   .outer {

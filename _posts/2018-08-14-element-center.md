@@ -6,6 +6,7 @@ permalink: /:categories/
 ---
 
 ## 垂直居中（我们外层一定有一个div，这个div有高宽）
+```
   ### 第一种情况 
     - 内部元素是一个div 
       `
@@ -31,3 +32,4 @@ permalink: /:categories/
         </div>
       ` 
       跟内部是一个div实现垂直居中的方式是一毛一样的。
+```

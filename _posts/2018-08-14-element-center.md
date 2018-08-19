@@ -22,7 +22,7 @@ permalink: /:categories/
 
 ### 第一种情况，内部只有一个子元素
 
-- 内部元素是一个 div  
+- 内部元素是一个`div`  
   
   ```
     <div class="outer">
@@ -36,7 +36,7 @@ permalink: /:categories/
       line-height: 60px; 
     }
   ```  
-- 内部元素是一个 span    
+- 内部元素是一个`span`    
   
   ```
     <div class="outer">
@@ -46,6 +46,7 @@ permalink: /:categories/
   跟内部是一个div实现垂直居中的方式是一毛一样的。
 
 ### 第二种情况，内部有两及以上子元素，我们以希望内部元素在同一行并且相对父元素垂直居中  
+- 内部元素是两个`div`  
 
 ```
   <div class="outer">
@@ -59,5 +60,23 @@ permalink: /:categories/
 ```
   .inner { 
     display: inline-block;
+    inline-height: 60px;
   }
+```   
+
+- 内部元素是两个`span`  
+```
+  <div class="outer">
+    <span class="inner">vertical</span>
+    <span class="inner">vertical</span>
+  </div>
 ```  
+
+由于`span`本身是inline元素，所以没有必要改变其`display`属性，直接给出`inline-height`的值即可；  
+
+
+```
+  .inner { 
+    inline-height: 60px;
+  }
+```    

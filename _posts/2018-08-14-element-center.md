@@ -10,6 +10,9 @@ permalink: /:categories/
 ### 第一种情况
 
 - 内部元素是一个 div  
+  ```
+    <div class="outer"><div class="inner">vertical</div></div>
+  ```
   `<div class="outer"><div class="inner">vertical</div></div>`  
   那么我们只需要给 inner 一个与 outer 高度相等的 line-height 就可以实现：  
   `.outer { height: 60px; width: 600px; background-color: yellow; } .inner { line-height: 60px; }`

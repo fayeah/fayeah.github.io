@@ -47,7 +47,8 @@ permalink: /:categories/
 
   折行的文本被挤下来了，这个时候我们该怎么办呢？
   首先介绍下`line-height`是啥，  
-  > line-height CSS 属性用于设置多行元素的空间量，比如文本。该属性值最好用数字，否则可能会产生不确定值。
+  > line-height CSS 属性用于设置多行元素的空间量，比如文本。该属性值最好用数字，否则可能会产生不确定值。  
+  
   具体定义参考[MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/line-height)。  
   也就是说`line-height`的存在并非是让我们用来垂直居中的，只是偶然巧合我们可以利用它来实现。来讲第二种方式。
 

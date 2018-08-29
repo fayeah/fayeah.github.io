@@ -1,7 +1,7 @@
 ---
 title: 元素居中的问题
 layout: default
-categories: css16
+categories: css19
 permalink: /:categories/
 ---
 

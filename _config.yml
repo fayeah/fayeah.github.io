@@ -1,7 +1,13 @@
-theme: jekyll-theme-midnight
 title: 小刀子飞飞的博客
-description: 一些总结，以及踩过的坑。
 excerpt_separator: <!--more-->
+remote_theme: chesterhow/tale
+
+permalink: /:year-:month-:day/:title
+paginate: 5
+
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
 
 defaults:
   -

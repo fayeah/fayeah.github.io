@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <title>
+    
+      元素居中的问题 &middot; 小刀子飞飞的博客
+    
+  </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+
+  <!-- RSS -->
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="小刀子飞飞的博客" />
+</head>
+
+
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="/">
+          <h2 class="nav-title">小刀子飞飞的博客</h2>
+        </a>
+        <ul>
+          <li><a href="/about">About</a></li>
+          <li><a href="/">Posts</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <h2 id="垂直居中我们外层一定有一个-div这个-div-有高宽">垂直居中（我们外层一定有一个 div，这个 div 有高宽）</h2>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  // html
+  &lt;div class="outer"&gt;
+    &lt;div class="children-elements"&gt;&lt;/div&gt;
+  &lt;/div&gt;
+
+  // css
+  .outer {
+      height: 60px;
+      width: 600px;
+      background-color: yellow;
+  }
+</code></pre></div></div>
+
+<h3 id="第一种情况内部只有一个子元素">第一种情况，内部只有一个子元素</h3>
+
+<ul>
+  <li>
+    <p>内部元素是一个<code class="highlighter-rouge">div</code></p>
+
+    <ol>
+      <li>方法一</li>
+    </ol>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;div class="outer"&gt;
+    &lt;div class="inner"&gt;vertical&lt;/div&gt;
+  &lt;/div&gt;
+</code></pre></div>    </div>
+
+    <p>那么我们只需要给 inner 一个与 outer 高度相等的 line-height 就可以实现：</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  .inner {
+    line-height: 60px;
+  }
+</code></pre></div>    </div>
+
+    <p>当一行的文本小于等于父元素的宽度时，用<code class="highlighter-rouge">line-height</code>来实现时没有太大问题的，但是，如果超出这行会发生什么（下图是当我把<code class="highlighter-rouge">outer</code>宽度改为<code class="highlighter-rouge">60px</code>，<code class="highlighter-rouge">inner</code>的文本改长一点时<code class="highlighter-rouge">abc1艰苦奋斗</code>的情况）：</p>
+
+    <p><img src="http://localhost:4000/assets/inner-text-too-long.png" alt="inner-image-too-long" /></p>
+
+    <p>折行的文本被挤下来了，这个时候我们该怎么办呢？
+首先介绍下<code class="highlighter-rouge">line-height</code>是啥，</p>
+    <blockquote>
+      <p>line-height CSS 属性用于设置多行元素的空间量，比如文本。该属性值最好用数字，否则可能会产生不确定值。</p>
+    </blockquote>
+
+    <p>具体定义参考<a href="https://developer.mozilla.org/zh-CN/docs/Web/CSS/line-height">MDN</a>。<br />
+也就是说<code class="highlighter-rouge">line-height</code>的存在并非是让我们用来垂直居中的，只是偶然巧合我们可以利用它来实现。来讲第二种方式。</p>
+
+    <ol>
+      <li>方法二</li>
+    </ol>
+
+    <p>使用<code class="highlighter-rouge">top: 50%</code>来实现，但是这个时候需要给子元素一个<code class="highlighter-rouge">absolute</code>的位置属性值，同时也要给其父元素一个<code class="highlighter-rouge">relative</code>的位置属性值，否则该子元素会相对于最近的拥有<code class="highlighter-rouge">relative</code>的属性值的元素垂直居中，注意，最后要给子元素一个 translateY 的<code class="highlighter-rouge">-50%</code>，因为 top 只是将文本的顶部做top的计算而不是本身；</p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  .outer {
+      height: 60px;
+      width: 60px;
+      background-color: yellow;
+      position: relative;
+  }
+  .inner {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+</code></pre></div>    </div>
+    <p>但这个方法有一个问题，就是如果行数超过了父元素的高度，怎么办，一般是在最后一行<code class="highlighter-rouge">ellipsis</code>，网上一般都有实现，这里就不再赘述。</p>
+  </li>
+  <li>
+    <p>内部元素是一个<code class="highlighter-rouge">span</code></p>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  &lt;div class="outer"&gt;
+    &lt;span class="inner"&gt;vertical&lt;/span&gt;
+  &lt;/div&gt;
+</code></pre></div>    </div>
+
+    <p>跟内部是一个 div 实现垂直居中的方式是一毛一样的，如果多行跟<code class="highlighter-rouge">div</code>几乎是一样的效果和实现。</p>
+
+    <ol>
+      <li>方法三
+  W3C给出了一种很简单的方法，是在父元素没有高宽的情况下，给子元素上下<code class="highlighter-rouge">padding</code>来撑开，当然针对块级元素，如果是行内元素，需要改变其<code class="highlighter-rouge">display</code>属性值为<code class="highlighter-rouge">inline-block</code>；</li>
+    </ol>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    .inner {
+      padding: 20px 0;
+    }
+</code></pre></div>    </div>
+
+    <ol>
+      <li>方法四
+ 当然，还有一个比较粗暴的方法是用table，父元素的<code class="highlighter-rouge">display</code>为<code class="highlighter-rouge">table</code>，子元素的<code class="highlighter-rouge">display</code>为<code class="highlighter-rouge">table-cell</code>，并且给子元素一个<code class="highlighter-rouge">vertical-align: middle;</code>也可以实现：</li>
+    </ol>
+
+    <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  .outer {
+    height: 60px;
+    width: 600px;
+    background-color: yellow;
+    display: table;
+  }
+  .inner {
+    padding: 20px 0;
+  }
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+    </main>
+
+    <footer>
+      <span>
+        &copy; <time datetime="2018-08-29 09:14:41 +0800">2018</time> . Made with Jekyll using the <a href="https://github.com/chesterhow/tale/">Tale</a> theme.
+      </span>
+    </footer>
+  </body>
+</html>

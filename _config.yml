@@ -5,6 +5,11 @@ remote_theme: chesterhow/tale
 permalink: /:year-:month-:day/:title
 paginate: 5
 
+author:
+  name: Xufei Li
+  url: https://fayeah.github.io/
+  email: lixufeichn@163.com
+
 plugins:
   - jekyll-paginate
   - jekyll-remote-theme

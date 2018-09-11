@@ -82,3 +82,9 @@ Jonathan Rasmusson (author of The Agile Samurai) and Jeff Patton (author of User
 - **估点**。估点活动一般是放在快要结束的时候，即业务和user journey已经完成，需要开发在一起估点，最后根据这些点来确认我们要上线的时间要完成哪些功能，非常考验开发的经验和专业度，是否能从业务中嗅到风险，是否能根据前期所有的workshop的上下文中找到合理的业务需求，是否能提出关键性的问题，是否能说服大家你的观点是正确的，是否能准确快速地给出答案。最后一个活动非常有意思，有3～5轮测试，每一轮测试会问开发在一个星期内是否能完成，这时候我们是基于3对pair来做的，最后从这几轮中得到平均的点数，那么这个点数就是我们一个星期内可以完成的点数。以后的每一个迭代也会根据这个点数来把故事卡从backlog里面拖到ready for dev。话说我那个时候太怂了，总觉得会给团队埋坑，一直怀疑自己估点是否真的准确。事实来看，是非常准确的。项目做到现在，除了UX在block，其他的一切非常顺利，包括我们每一张卡没有delay，包括大家对tech的熟悉度也是按照正常的节奏来的。  
 
 7月份的inception我到现在都记忆犹新，确实从中成长了很多，当然也从我们PM和BA小姐姐身上学到了很多，她们考虑问题非常全面，英文非常好，无障碍沟通，我呢，就是发现自己想的太少，总觉得很多事情不是开发该管的就不关注了，这个观念是非常不正确的，总要学会面对各种问题，而不只是技术方面的。当然，英文还是要持续提高才好。这也是我第一次参加inception，表现确实不理想，当发现即便是tech lead表现也没有想象中的那么好的时候，我个人心里还是稍微安慰了一点，但是，不能让别人瞧不起的啊，特别是外国友人，所以即便非常专业，没有表现出来，那也是不专业的。期待下次可以做的更好。
+
+<hr />
+
+1. [https://www.zybuluo.com/zhongjianxin/note/833520](https://www.zybuluo.com/zhongjianxin/note/833520);
+2. [https://martinfowler.com/articles/lean-inception/](https://martinfowler.com/articles/lean-inception/);
+3. [https://content.pivotal.io/blog/inception-knowing-what-to-build-and-where-you-should-start](https://content.pivotal.io/blog/inception-knowing-what-to-build-and-where-you-should-start);

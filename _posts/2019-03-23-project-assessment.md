@@ -19,18 +19,18 @@ Fendy和小虫分别找项目中经验比较多的开发进行谈话，我是跟
 
 这里我只记录格式：
 
-title: {{project name}} Technical Assessment    
-prepared by: {{name}}  {{email}}    
-date:  {{result generated date}}    
-note: For internal consumption and distribution within {{company name}} only This report contains commercially sensitive information    
-table of contents:     
-  Executive Summary: what we did, what we found, what we recommend    
-  Background/Context: what trigger this assessment    
-  Stakeholders: DP, DA, etc    
-  Communication Plan: what time communicate with whom    
-  Findings - Risks / Gaps:    
-  Finds - Existing Mitigation Factors: what we did very well for now    
-  Recommendations: what kind of actions we should do to make technical much better    
+**title**: _{{project name}} Technical Assessment_    
+**prepared by**: _{{name}}  {{email}}_    
+**date**:  _{{result generated date}}_    
+**note**: _For internal consumption and distribution within {{company name}} only This report contains commercially sensitive information_    
+**table of contents**:     
+  **Executive Summary**: _what we did, what we found, what we recommend_    
+  **Background/Context**: _what trigger this assessment_    
+  **Stakeholders**: _DP(Delivery Principle), DA(Delivery Assurance), etc_    
+  **Communication Plan**: _what time communicate with whom_    
+  **Findings - Risks / Gaps**:    
+  **Finds - Existing Mitigation Factors**: _what we did very well for now_    
+  **Recommendations**: _what kind of actions we should do to make technical much better_    
 
 总结一下，客观来讲，确实前端做的没有那么尽如人意。
 1. 我作为这个项目从开始到现在的lead，么有对angular的决策的能力，tech anchor的作用在我这里不能体现，这个我也跟小虫聊过，想要一个专家，但是做不到每个项目都有一个专家，自己可以多参加session，workshop等活动来提高自己；    

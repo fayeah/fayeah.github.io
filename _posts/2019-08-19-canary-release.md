@@ -17,13 +17,13 @@ __原文地址：[Canary Release by Martin Fowler](https://martinfowler.com/blik
 
 ![canary-release-1]({{ "/assets/canary-release/canary-release-1.png" | absolute_url }})
 
-当你觉得新版本没有什么问题，就可以将新版本路由给部分用户。对于哪些用户能看到新版本有集中策略：比较简单的策略是使用随机样本；一些公司在对外发布之前选择内部用户和员工来先使用新版本；另外一个更为复杂的方法是通过用户信息和统计数据来选择测试用户。
+当你觉得新版本没有什么问题，就可以将新版本路由给部分用户。对于哪些用户能看到新版本有几种策略：比较简单的策略是使用随机样本；一些公司在对外发布之前选择内部用户和员工来先使用新版本；另外一个更为复杂的方法是通过用户信息和统计数据来选择测试用户。
 
 ![canary-release-2]({{ "/assets/canary-release/canary-release-2.png" | absolute_url }})
 
 当你对新版本获得更多信心的时候，就可以发布到更多的服务并路由给更多的用户了。一个好的实践是使用PhoenixServers通过修改已存的架构来部署新版本，或者使用 ImmutableServers来提供一个新的架构并且关掉旧的架构。
 
-金丝雀发布是一个ParallelChange的应用，集成阶段会持续到所有用户全部都切到了新版本。那个时候，就可以关掉旧的架构。一旦新版本出现了什么问题，只需要使用回滚策略将用户切回到旧版本，知道新版本的问题修复。
+金丝雀发布是一个ParallelChange的应用，集成阶段会持续到所有用户全部都切到了新版本。那个时候，就可以关掉旧的架构。一旦新版本出现了什么问题，只需要使用回滚策略将用户切回到旧版本，直到新版本的问题修复。
 
 ![canary-release-3]({{ "/assets/canary-release/canary-release-3.png" | absolute_url }})
 
@@ -31,7 +31,7 @@ __原文地址：[Canary Release by Martin Fowler](https://martinfowler.com/blik
 
 尽管这个技术的名字还不为人熟知，实际上金丝雀部署的的实践已经被采用了一段时间了。有时候也被称为**phased rollout**或**incremental rollout**。
 
-在比较大的，分布式的场景中，不是使用路由的方式来决定哪些用户切到新版本，使用不同的划分策略比较普遍。比如：如果有地理上划分的用户，你可以将某个地区或者某个具体地理位置的用户切换到新版本；如果有多个品牌可以先切到某个品牌的用户，等等。脸书采用多个金丝雀的策略，先是让内部员工看到新版本，同事把FeatureToggles打开，以此来尽早地监测到新版本的问题。
+在比较大的、分布式的场景中，不是使用路由的方式来决定哪些用户切到新版本，而比较常见的是使用不同的划分策略。比如：如果有地理上划分的用户，你可以将某个地区或者某个具体地理位置的用户切换到新版本；如果有多个品牌可以先切到某个品牌的用户，等等。脸书采用多个金丝雀的策略，先是让内部员工看到新版本，同时把FeatureToggles打开，以此来尽早地监测到新版本的问题。
 
 ![facebook-canary-strategy]({{ "/assets/canary-release/facebook-canary-strategy.jpg" | absolute_url }})
 

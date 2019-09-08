@@ -1,5 +1,5 @@
 ---
-title: Canary Release
+title: 【译】Canary Release
 layout: default
 categories: canary-release
 permalink: /:categories/

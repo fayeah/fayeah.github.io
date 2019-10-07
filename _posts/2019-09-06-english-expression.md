@@ -16,3 +16,10 @@ permalink: /:categories/
   - onus  (英  ['əʊnəs])
   短语：
   - spick & span （习语，整洁）
+
+- __"The negated character class [^] matches any character that is not in the square brackets."__
+  翻译：否定的字符^符合任何不在方括号内的字符。
+  生僻词：
+  - negated (/nɪˈɡeɪt/)
+  短语：
+  - square brackets （方括号）

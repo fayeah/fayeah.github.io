@@ -1,8 +1,8 @@
 ---
-title: Pulao Ubin
+title: Mac systemctl
 layout: default
-categories: ubin
+categories: mac-systemctl
 permalink: /:categories/
 ---
 
-## 
+## Mac systemctl

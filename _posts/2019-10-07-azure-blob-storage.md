@@ -1,8 +1,8 @@
 ---
-title: Pulao Ubin
+title: Azure Blob Storage
 layout: default
-categories: ubin
+categories: azure-blob-storage
 permalink: /:categories/
 ---
 
-## 
+## Azure Blob Storage

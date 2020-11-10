@@ -5,4 +5,3 @@ categories: external file
 permalink: /:categories/
 ---
 
-what is this?

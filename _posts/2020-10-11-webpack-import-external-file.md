@@ -4,5 +4,3 @@ layout: default
 categories: external file
 permalink: /:categories/
 ---
-
-nnn

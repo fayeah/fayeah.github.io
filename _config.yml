@@ -10,11 +10,11 @@ minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Faye"
 title_separator          : "-"
 subtitle                 : "记录生活的点滴"
 name                     : "Faye"
-description              : "Minimal Mistakes theme test."
+description              : "Faye🎗"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : ""
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

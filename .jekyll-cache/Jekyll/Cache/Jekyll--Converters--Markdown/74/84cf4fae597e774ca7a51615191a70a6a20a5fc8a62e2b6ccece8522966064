@@ -1,0 +1,199 @@
+I"�4<h1 id="联系方式">联系方式</h1>
+
+<ul>
+  <li>手机：13349898660</li>
+  <li>Email：lixufeichn@163.com</li>
+  <li>微信号：411596701</li>
+</ul>
+
+<hr />
+
+<h1 id="个人信息">个人信息</h1>
+
+<ul>
+  <li>李旭飞</li>
+  <li>本科/武汉轻工大学/信息与计算科学</li>
+  <li>工作年限：5.5年</li>
+  <li>技术博客：https://github.com/fayeah/blogs/issues</li>
+  <li>Github：https://github.com/fayeah</li>
+  <li>期望职位：Web前端高级程序员</li>
+  <li>期望城市：北京</li>
+</ul>
+
+<hr />
+<p>我在此项目负责了哪些工作，分别在哪些地方做得出色/和别人不一样/成长快，这个项目中，我最困难的问题是什么，我采取了什么措施，最后结果如何。这个项目中，我最自豪的技术细节是什么，为什么，实施前和实施后的数据对比如何，同事和领导对此的反应如何。</p>
+<h1 id="工作经历">工作经历</h1>
+
+<h2 id="thoughtworks--2015年6月--至今-">ThoughtWorks （ 2015年6月 ~ 至今 ）</h2>
+
+<h3 id="美孚石油配置系统automated-offer-deployment--sol-strengthen-our-logistics">美孚石油配置系统（Automated Offer Deployment / SOL (Strengthen-Our Logistics)）</h3>
+<p>技能：Angular7、Rxjs、TypeScript、Jasmine、Material Design、Docker、Open Shift</p>
+
+<ul>
+  <li>利用<strong>敏捷实践</strong>帮助客户更好地进行交付，与跟泰国客户进行每日的站会、代码审查以及定期的迭代计划会议，提出改进建议等。</li>
+  <li>完成前端的开发工作，期间解决了提高单元测试性能：原来<strong>10</strong>分钟，优化之后<strong>5</strong>分钟，获得了客户和团队的高度认可。</li>
+  <li>解决部署到生产环境之后的<strong>缓存问题</strong>，利用给 bundle 文件加version的方式，并且在nginx里面加上相应的配置 ，使得每次部署之后浏览器都能够加载最新的 bundle。</li>
+</ul>
+
+<h3 id="美国通用运输公司gatx">美国通用运输公司（GATX）</h3>
+<p>技能：Vue、Vuex、TypeScript、Jest、Indexdb、SpringBoot、Mongodb、Flyway</p>
+
+<ul>
+  <li>每日与美国团队进行一个小时的会议，讨论需求和技术方案。</li>
+  <li>第一次接触VUE框架，在团队只有2个前端开发和与美国时差的情况下，利用文档、论坛、博客等渠道快速学习，从而顺利地完成交付。</li>
+  <li>使用了比较新的技术 composition-api，更好地组织代码和逻辑复用。</li>
+  <li>使用 indexdb 批量地下载数据，添加数据以及更新数据，从而能够支持弱网环境。</li>
+  <li>解决了在打印的弹出框里，如何将动态的数据进行等高排列的布局问题等。</li>
+  <li>使用 library(sheetjs) 将 excel 数据转换为所需要的 migration sql 文件，将添加数据自动化，极大地提高了工作效率。</li>
+</ul>
+
+<h3 id="新加坡政府的健康应用healthy-365">新加坡政府的健康应用（Healthy 365+）</h3>
+<p>技能：React Native、Redux、TypeScript、Jest、Nodejs、SpringBoot、Ansible</p>
+
+<ul>
+  <li>在新加坡的客户现场做交付（8个月），参与跟客户的各种会议，进行敏捷实践。</li>
+  <li>主要负责前端React Native和BFF的Nodejs的开发，探索研究不同的解决方案，与团队讨论并找到符合项目的最佳实践。</li>
+  <li>使用第三方库 lottie-react-native，实现 app 的动画效果。</li>
+  <li>使用第三方库 victory-native，实现了 app 内部图表的绘制，使数据可视化，更加直观地将数据展示给用户。</li>
+  <li>利用 Azure 的 Nexus 来存储我们自己开发的库、依赖等，实现了将依赖统一管理，同时也满足多个项目使用的场景。</li>
+  <li>实现了利用经纬度/具体的地址，在 app 内部打开手机的地图（谷歌地图/苹果地图等），从而使用户很方便地导航到目的地。</li>
+  <li>使用 AWS 的 S3 bucket 存储较大的图片，app 中使用连接来获取图片，减少 app 打包的大小，提升性能。</li>
+  <li>引入第三方依赖 netinfo，根据手机不同的联网情况，给到用户更加有意义的提示信息，从而提升用户体验。</li>
+  <li>使用ansible playbook自动化搭建环境（Mac/Linux）：node, jdk, docker, bamboo，etc。</li>
+  <li>使用 Detox 工具，根据业务生成端到端的测试用例，在持续集成的时候自动运行，提高了手动测试的效率。</li>
+</ul>
+
+<h3 id="美孚石油的客户服务平台customer-service-and-order-application">美孚石油的客户服务平台（Customer Service and Order Application）</h3>
+<p>技能：Angular6、TypeScript、Jasmine、Storybook、ADR</p>
+
+<ul>
+  <li>作为前端TL去到匈牙利参与为期一个月的需求、设计和讨论，并给出解决方案。</li>
+  <li>一周2-3次与客户（PO/UX 等不同角色）讨论需求/设计，以及从技术角度的合理性和工作量，给出建议以及技术方案 。</li>
+  <li>初期通过搜索引擎等方式，加上个人的经验，为项目做技术选型，最终确定为Angular6。</li>
+  <li>利用 Feature Toggle 来管理和控制每次发布需要更新的功能和补丁修复等。</li>
+  <li>周期性给团队带来技术上的分享（Rxjs等），与团队深入地进行交流，提高团队整体的技术水平。</li>
+  <li>负责日常的调研和开发，把控前端代码质量和进度，SSO的前端实现等。</li>
+  <li>将坐席桌面 Cisco Finess API 集成到我们前端的系统中，使得客服在网页端能够接到用户打来的电话，并能够同步数据。</li>
+</ul>
+
+<h3 id="奔驰给经销商应用广播系统---one-touch-retailmbb">奔驰给经销商应用/广播系统 - （One Touch Retail/MBB）</h3>
+<p>技能：React Native、Redux、React、TypeScript、Webpack、Jest、Less、Nginx、Docker</p>
+
+<ul>
+  <li>在北京奔驰的客户现场进行交付，参与各种敏捷实践。</li>
+  <li>根据不同的设备做不同的处理，如果是手机上打开来网页应用，会有一个下载链接，让用户能够下载 app ，支持 Android 和 IOS 上多种浏览器的下载。</li>
+  <li>利用第三方库 react-intl，通过将 i18n 上下文限定为组件树，从而实现网页应用的国际化。</li>
+  <li>使用第三方库 react-dnd，实现了页面上的拖拽功能。</li>
+  <li>使用第三方库 react-avatar-editor，实现了对用户头像的编辑，改变头像大小、剪切、和旋转上传的头像。</li>
+  <li>使用 UEditor 富文本编辑器，能够设置和读取编辑器的内容，使用户能够在富文本框里编辑内容，提高内容的编辑体验。</li>
+  <li>其中一个主要的功能模块survey，对框架 surveyjs 进行了二次开发，从而满足需求和设计。</li>
+  <li>对手机应用做第三方（听云、AppCenter）的集成，能够分析流量、日志，帮助更好地定位问题等。</li>
+  <li>在手机端使用 jsBridge 技术，实现了将 h5 页面嵌入到 app 中。</li>
+  <li>App 使得公司获得戴姆勒“2017 最佳供应商”的奖项;</li>
+</ul>
+
+<h3 id="歌诗达邮轮的官网">歌诗达邮轮的官网</h3>
+<p>技能：React、Antd、Git、Docker</p>
+
+<ul>
+  <li>负责日常的开发工作，参与团队的各种敏捷实践。</li>
+  <li>初期将excel表里面的数据导入到静态网页中去，使用Nodejs转换数据，节约了手动添加数据到代码里面的成本。</li>
+  <li>使用第三方库 <code class="language-plaintext highlighter-rouge">source-map-explorer</code> ，分析 js bundle 的大小，从而有针对性地提高性能。</li>
+  <li>使用开源的分析平台 Piwik（现在叫 Matomo ）、品友和秒针系统, 分析网站的流量等使用情况，并且将数据的控制权掌握在自己手中，保护用户的隐私数据。</li>
+  <li>使用第三方依赖 <code class="language-plaintext highlighter-rouge">i18next</code>，来对网页进行中文、英文等国际化的内容转换。</li>
+  <li>引用了第三方库 <code class="language-plaintext highlighter-rouge">object-fit-images</code>，对图片的属性 object-fit/object-position 进行polyfill，从而能够兼容IE等多种浏览器。</li>
+  <li>实现了 includes、forEach等方法进行 <code class="language-plaintext highlighter-rouge">polyfill</code>，使得在IE等多种浏览器里面都可以使用这些方法，保证浏览器的兼容性。</li>
+  <li>使用媒体查询的方式，使得网站能够兼容多种设备，电脑、手机等，实现页面的响应式。</li>
+  <li>使用搜索引擎优化（SEO）的方式，增加网站流量的质量和数量，并且使网站内容更好地索引和显示在搜索结果中。</li>
+</ul>
+
+<h3 id="印度twuthoughtworks-university">印度TWU（ThoughtWorks University）</h3>
+<p>技能：Springboot、English</p>
+
+<ul>
+  <li>在印度的ToughtWorks办公室参与一个月的学习和交流，与各个国家（5+）的同事组成一个团队，对敏捷、TDD等相关的技术和理念有一个更深入地了解，对后面回国之后的交付奠定了基础。</li>
+</ul>
+
+<h3 id="其他项目">其他项目</h3>
+
+<h3 id="办公室语音小程序">办公室语音小程序</h3>
+<p>技能：Mpvue、Vuex、React、Springboot、Docker、Jenkins</p>
+
+<ul>
+  <li>每个景点附近放有 beacon ，利用手机蓝牙功能在一定范围内扫描到景点信息，并且可播放。</li>
+  <li>利用小程序的 storage 来存储和获取数据，从而保证每一个音频的播放都是连续、流畅的。</li>
+  <li>使用第三方依赖库 react-bootstrap， 应用到项目管理后台系统的 UI 组件库。</li>
+</ul>
+
+<h3 id="公司techops">公司TechOps</h3>
+<p>技能：Knockoutjs、Ruby、Clojure、SpringBoot、Apex（Sales Force）</p>
+
+<ul>
+  <li>通过学习Apex语言，使得系统能与SalesForce集成，并能够完成SalesForce的部署；</li>
+  <li>使用第三方库（D3），能够将数据可视化，让用户能够更直观地查看和分析数据；</li>
+  <li>作为产品的后台支持，及时处理用户提出的ticket，帮助用户权限的管理，整理用户提出的issue，方便后续的追踪解决。</li>
+  <li>作为项目的新人，不断通过学习在项目分享技术，通过分享快速地成长，并完成任务。</li>
+</ul>
+
+<h2 id="合力亿捷科技股份有限公司--2014年9月--2015年4月-">合力亿捷科技股份有限公司 （ 2014年9月 ~ 2015年4月 ）</h2>
+
+<h3 id="crm需求">CRM需求</h3>
+<p>技能：Springboot、Oracle、SVN、JSP、shell</p>
+
+<ul>
+  <li>负责CRM的需求开发，能够在工作量评估的时间内完成，生成测试报告和提交代码。</li>
+  <li>对福建省的回访系统进行维护和支持，及时帮助客户解决问题。</li>
+  <li>对多个省的服务器进行巡查工作，并得到了领导的肯定。</li>
+</ul>
+
+<hr />
+
+<h1 id="开源项目和作品">开源项目和作品</h1>
+
+<h2 id="开源项目">开源项目</h2>
+
+<ul>
+  <li><a href="https://github.com/alibaba/form-render">form-render</a>：阿里的组件库，是Contributor之一；通过 JSON Schema 生成标准Form，常用于自定义搭建配置界面生成。</li>
+  <li><a href="https://github.com/fayeah/camelCaseSnakeCaseConverter">camelCaseSnakeCaseConverter</a>：可以将所有Junit的测试用例的描述从驼峰瞬间转换成下划线的描述，增强可读性。</li>
+  <li><a href="https://github.com/fayeah/mask-sensitive-fields">mask-sensitive-fields</a>：使用nodejs实现将PII的数据进行局部隐藏，保证数据的安全性。</li>
+  <li><a href="https://github.com/fayeah/rct-map">rct-map</a>：利用D3将选中的国家、地区等高亮。</li>
+</ul>
+
+<h2 id="技术文章">技术文章</h2>
+
+<ul>
+  <li><a href="https://github.com/fayeah/blogs/issues/16">金丝雀部署</a>【Martin Fowler文章的翻译】</li>
+  <li><a href="https://github.com/fayeah/blogs/issues/38">线上缓存问题的故障排除</a></li>
+  <li><a href="https://github.com/fayeah/blogs/issues/3">手机app在后台运行时，防止自动截屏存到手机上</a></li>
+  <li>我的博客（https://github.com/fayeah/blogs）</li>
+</ul>
+
+<h1 id="技能清单">技能清单</h1>
+
+<p>熟练/掌握：</p>
+<ul>
+  <li>Web框架：React/Vue</li>
+  <li>前端工具：Webpack</li>
+  <li>版本管理、文档和自动化部署工具：Git</li>
+  <li>单元测试：Jest</li>
+  <li>云和开放平台：微信应用开发</li>
+</ul>
+
+<p>一般：</p>
+<ul>
+  <li>Web框架：Angular2+/Knockoutjs</li>
+  <li>前端工具：Gulp</li>
+  <li>版本管理、文档和自动化部署工具：SVN、ard</li>
+  <li>单元测试：Jasmine、Junit</li>
+  <li>其他：Springboot、Docker、Open Shift、Bamboo/Jenkins/GoCD</li>
+</ul>
+
+<hr />
+<h2 id="自我评价">自我评价</h2>
+<ul>
+  <li>热爱coding，喜欢总结，写博客，提PR等。</li>
+  <li>不断学习新技术，利用内部或者外部资源深入学习各种前端框架和知识，利用业余时间看极客时间的课程。</li>
+  <li>作为讲师参与到对外和对内的活动：WTM活动对外演讲《Angular发展史》、公司内部分享《Rxjs》、公司对外的“男神女神结对编程”活动、武汉“Girls Coding Day”活动等。</li>
+  <li>作为听众经常参加公司外部的技术演讲，杭州的 ngChina 开发者大会, TGO 鲲鹏会，武汉的 Open Party 等。</li>
+</ul>
+:ET

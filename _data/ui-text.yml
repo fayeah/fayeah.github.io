@@ -1,0 +1,218 @@
+# User interface text and labels
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  skip_links                 : "Skip links"
+  skip_primary_nav           : "Skip to primary navigation"
+  skip_content               : "Skip to content"
+  skip_footer                : "Skip to footer"
+  page                       : "Page"
+  pagination_previous        : "Previous"
+  pagination_next            : "Next"
+  breadcrumb_home_label      : "Home"
+  breadcrumb_separator       : "/"
+  menu_label                 : "Toggle menu"
+  search_label               : "Toggle search"
+  toc_label                  : "On this page"
+  ext_link_label             : "Direct link"
+  less_than                  : "less than"
+  minute_read                : "minute read"
+  share_on_label             : "Share on"
+  meta_label                 :
+  tags_label                 : "Tags:"
+  categories_label           : "Categories:"
+  date_label                 : "Updated:"
+  comments_label             : "Leave a comment"
+  comments_title             : "Comments"
+  more_label                 : "Learn more"
+  related_label              : "You may also enjoy"
+  follow_label               : "Follow:"
+  feed_label                 : "Feed"
+  powered_by                 : "Powered by"
+  website_label              : "Website"
+  email_label                : "Email"
+  recent_posts               : "Recent posts"
+  undefined_wpm              : "Undefined parameter words_per_minute at _config.yml"
+  comment_form_info          : "Your email address will not be published. Required fields are marked"
+  comment_form_comment_label : "Comment"
+  comment_form_md_info       : "Markdown is supported."
+  comment_form_name_label    : "Name"
+  comment_form_email_label   : "Email address"
+  comment_form_website_label : "Website (optional)"
+  comment_btn_submit         : "Submit comment"
+  comment_btn_submitted      : "Submitted"
+  comment_success_msg        : "Thanks for your comment! It will show on the site once it has been approved."
+  comment_error_msg          : "Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again."
+  loading_label              : "Loading..."
+  search_label_text          : "Enter your search term..."
+  search_placeholder_text    : "Enter your search term..."
+  search_algolia_no_results  : "No results"
+  results_found              : "Result(s) found"
+  back_to_top                : "Back to top"
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Chinese  (zh-CN Chinese - China)
+# --------------------------------
+zh: &DEFAULT_ZH_HANS
+  skip_links                 : "跳转链接"
+  skip_primary_nav           : "转到主导航栏"
+  skip_content               : "转到内容"
+  skip_footer                : "转到底部"
+  page                       : "页面"
+  pagination_previous        : "上一页"
+  pagination_next            : "下一页"
+  breadcrumb_home_label      : "首页"
+  breadcrumb_separator       : "/"
+  menu_label                 : "切换菜单"
+  search_label               : "切换搜索"
+  toc_label                  : "目录"
+  ext_link_label             : "直接链接"
+  less_than                  : "少于"
+  minute_read                : "分钟阅读"
+  share_on_label             : "分享"
+  meta_label                 :
+  tags_label                 : "标签:"
+  categories_label           : "分类:"
+  date_label                 : "更新时间:"
+  comments_label             : "留下评论"
+  comments_title             : "评论"
+  more_label                 : "了解更多"
+  related_label              : "猜您还喜欢"
+  follow_label               : "关注:"
+  feed_label                 : "Feed"
+  powered_by                 : "技术来自于"
+  website_label              : "网站"
+  email_label                : "电子邮箱"
+  recent_posts               : "最新文章"
+  undefined_wpm              : "_config.yml 配置中 words_per_minute 字段未定义"
+  comment_form_info          : "您的电子邮箱地址并不会被展示。请填写标记为必须的字段。"
+  comment_form_comment_label : "评论"
+  comment_form_md_info       : "支持 Markdown 语法。"
+  comment_form_name_label    : "姓名"
+  comment_form_email_label   : "电子邮箱"
+  comment_form_website_label : "网站（可选）"
+  comment_btn_submit         : "提交评论"
+  comment_btn_submitted      : "已提交"
+  comment_success_msg        : "感谢您的评论！被批准后它会立即在此站点展示。"
+  comment_error_msg          : "很抱歉，您的提交存在错误。请确保所有必填字段都已填写正确，然后再试一次。"
+  loading_label              : "正在加载..."
+  search_label_text          : "输入您要搜索的关键词..."
+  search_placeholder_text    : "输入您要搜索的关键词..."
+  search_algolia_no_results  : "无结果"
+  results_found              : "条记录匹配"
+  back_to_top                : "返回顶部"
+zh-CN:
+  <<: *DEFAULT_ZH_HANS
+zh-SG:
+  <<: *DEFAULT_ZH_HANS
+# Taiwan (Traditional Chinese)
+zh-TW: &DEFAULT_ZH_HANT
+  skip_links                 :
+  skip_primary_nav           : "轉至主導航欄"
+  skip_content               : "轉至内容"
+  skip_footer                : "轉至頁脚"
+  page                       : "頁面"
+  pagination_previous        : "前一頁"
+  pagination_next            : "後一頁"
+  breadcrumb_home_label      : "首頁"
+  breadcrumb_separator       : "/"
+  menu_label                 : "切換選單"
+  search_label               : "切換搜索"
+  toc_label                  : "本頁"
+  ext_link_label             : "外部連結"
+  less_than                  : "少於"
+  minute_read                : "分鐘閱讀"
+  share_on_label             : "分享到"
+  meta_label                 :
+  tags_label                 : "標籤:"
+  categories_label           : "分類:"
+  date_label                 : "更新時間:"
+  comments_label             : "留言"
+  comments_title             : "留言內容"
+  more_label                 : "了解更多"
+  related_label              : "猜您有與趣"
+  follow_label               : "追蹤:"
+  feed_label                 : "RSS Feed"
+  powered_by                 : "Powered by"
+  website_label              : "網站"
+  email_label                : "電子信箱"
+  recent_posts               : "最新文章"
+  undefined_wpm              : "_config.yml 中未定義 words_per_minute"
+  comment_form_info          : "您的電子信箱不會被公開. 必填部份已標記"
+  comment_form_comment_label : "留言內容"
+  comment_form_md_info       : "支援 Markdown 語法。"
+  comment_form_name_label    : "名字"
+  comment_form_email_label   : "電子信箱帳號"
+  comment_form_website_label : "網頁 (可選填)"
+  comment_btn_submit         : "送出留言"
+  comment_btn_submitted      : "已送出"
+  comment_success_msg        : "感謝您的留言！ 審核後將會顯示在站上。"
+  comment_error_msg          : "抱歉，部份資料輸入有問題。請確認資料填寫正確後再試一次。"
+  loading_label              : "載入中..."
+  search_label_text          : "輸入您要搜索的關鍵詞..."
+  search_placeholder_text    : "輸入您要搜索的關鍵詞..."
+  search_algolia_no_results  : "沒有結果"
+  results_found              : "條匹配的記錄"
+  back_to_top                : "回到頂部"
+zh-HK:
+  <<: *DEFAULT_ZH_HANT
+
+# Japanese
+# --------
+ja: &DEFAULT_JA
+  skip_links                 :
+  skip_primary_nav           :
+  skip_content               :
+  skip_footer                :
+  page                       : "ページ"
+  pagination_previous        : "前へ"
+  pagination_next            : "次へ"
+  breadcrumb_home_label      : "ホーム"
+  breadcrumb_separator       : "/"
+  menu_label                 : "メニュー"
+  search_label               :
+  toc_label                  : "目次"
+  ext_link_label             : "リンク"
+  less_than                  :
+  minute_read                :
+  share_on_label             : "共有"
+  meta_label                 :
+  tags_label                 : "タグ:"
+  categories_label           : "カテゴリー:"
+  date_label                 : "更新日時:"
+  comments_label             : "コメントする"
+  comments_title             : "コメント"
+  more_label                 : "さらに詳しく"
+  related_label              : "関連記事"
+  follow_label               : "フォロー"
+  feed_label                 :
+  powered_by                 :
+  website_label              :
+  email_label                :
+  recent_posts               : "最近の投稿"
+  undefined_wpm              : "パラメータ words_per_minute が _config.yml で定義されていません"
+  comment_form_info          : "メールアドレスが公開されることはありません。次の印のある項目は必ず入力してください:"
+  comment_form_comment_label : "コメント"
+  comment_form_md_info       : "Markdown を使用できます"
+  comment_form_name_label    : "名前"
+  comment_form_email_label   : "メールアドレス"
+  comment_form_website_label : "URL (任意)"
+  comment_btn_submit         : "コメントを送信する"
+  comment_btn_submitted      : "送信しました"
+  comment_success_msg        : "コメントありがとうございます！　コメントは承認されるとページに表示されます。"
+  comment_error_msg          : "送信エラーです。必須項目がすべて入力されていることを確認して再送信してください。"
+  loading_label              : "読み込み中..."
+  search_label_text          :
+  search_placeholder_text    : "検索キーワードを入力してください..."
+  search_algolia_no_results  :
+  results_found              : "件"
+ja-JP:
+  <<: *DEFAULT_JA

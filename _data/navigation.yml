@@ -1,0 +1,39 @@
+# main links links
+main:
+  - title: "Posts"
+    url: /year-archive/
+  - title: "Collections"
+    url: /collection-archive/
+  - title: "Books"
+    url: /books/2020-06-01-21-days/
+  - title: "Photos"
+    url: /splash-page/
+  - title: "Videos"
+    url: /video-page/
+  # - title: "Posts by Category"
+  #   url: /collection-archive-grid/
+  # - title: "Posts by Tag"
+  #   url: /collection-archive-grid/
+  - title: "About"
+    url: "about"
+  - title: "Terms"
+    url: /terms/
+
+# sidebar navigation list sample
+sidebar-sample:
+  - title: "Books"
+    children:
+      - title: "2020-06-01-21-days/"
+        url: /books/2020-06-01-21-days/
+      - title: "从0到1"
+        url: /books/from-0-to-1/
+
+sidebar-photos:
+  - title: "Travel"
+    children:
+      - title: "tioman"
+        url: /photos/2019-08-12-tioman/
+      - title: "ubin"
+        url: /photos/2019-09-07-ubin/
+      - title: "budapest"
+        url: /photos/budapest/

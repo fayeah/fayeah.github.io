@@ -1,0 +1,22 @@
+I"�<h2 id="mobile如何调试web应用">mobile如何调试web应用</h2>
+
+<ol>
+  <li>
+    <p>在同一个局域网下</p>
+  </li>
+  <li>
+    <p>ifconfig查找ip</p>
+  </li>
+  <li>
+    <p>在手机网页上输入ip+端口号即可显示</p>
+  </li>
+  <li>
+    <p>数据线连接电脑和手机</p>
+  </li>
+  <li>
+    <p>在safari的develop中找到手机的开发页面即可进行开发</p>
+  </li>
+</ol>
+
+<p>notes：safari的develop要在preference-&gt;advanced上勾选show develop选项。</p>
+:ET

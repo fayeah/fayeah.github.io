@@ -1,5 +1,6 @@
 ---
 title: 新加坡缴税
+last_modified_at: 2021-02-09T16:41:00-04:00
 ---
 
 ### 前情提要
@@ -26,17 +27,16 @@ title: 新加坡缴税
 
 Note：
 
-- 申请IRAS账号：Sign Up IRAS account: https://form.gov.sg/#!/5ba9864428dc89000fa2e553
-- 填写的信息：
-    Blk/Hse/PO Box - 20
-    Street Name - Havelock Road
-    Does the building have a unit number? - Yes
-    Storey - Select 07
-    Unit Number - 12
-    Building/Apartment/Condominium Name - Village Residence Clarke Quay
-    Postal Code - 059765
-    '5. Have ceased employment/about to cease employment in Singapore?' - Do select ‘YES'
-    Do you have a tax reference number with IRAS? - You may select Yes, as you have a FIN number
+- 申请IRAS账号：[Sign Up IRAS account](https://form.gov.sg/#!/5ba9864428dc89000fa2e553)
+- 填写的信息:
+
+    | Blk/Hse/PO Box        | Street Name           | Does the building have a unit number?  |  Storey  | Unit Number |
+    | :-------------------: |:---------------------:| :-------------------------------------:|  :----:  |:---------:  |
+    | 20                    | Havelock Road         | Yes                                    |Select 07 |12           |
+
+    |Building/Apartment/Condominium Name|Postal Code|Have ceased employment/about to cease employment in Singapore?|Do you have a tax reference number with IRAS|
+    |:------------:                     |:--------: |:--------------------------------------------------------:    |:-----------------------------------------: |
+    |Village Residence Clarke Quay      |059765     |‘YES'                                                         |You may select Yes, as you have a FIN number|
 
 ### 充值DBS账户
 
@@ -54,12 +54,11 @@ Note：
 - 他说我没有任何的tax balance，但是会有一笔refund寄到Have Lock Rd，也就是我的公寓。
 - 我整个人都震惊了，我花了那么大力气，想尽办法，绞尽脑汁给他们补税，结果还要退钱给我，当然我是开心的，只不过如果一开始是这样不就没有后面的这一些列问题了嘛，我那封邮件简直要爆炸了，竟然还involve了global的finance的同事。
 - 是因为他们在纳税方面做了一个[妥协](https://www.iras.gov.sg/irashome/Individuals/Locals/Working-Out-Your-Taxes/Income-Tax-Rates/)，如果连续2年在SG的工作时间超过183天，只需要按照residence tax来缴纳就行了，所以最终我只需要缴纳$164.06，而IRAS要退款($3532.71 - $164.06) 。
-- 新的政策：https://www.iras.gov.sg/irashome/Individuals/Foreigners/Learning-the-basics/Individuals--Foreigners--Required-to-Pay-Tax/
+- 政策更新：[新的政策](https://www.iras.gov.sg/irashome/Individuals/Foreigners/Learning-the-basics/Individuals--Foreigners--Required-to-Pay-Tax/)
 
 ### 支票到账
 
 - 一开始跟IRAS的officer聊，说会到我公司账户，然后各种问新加坡Finance的同事，然后他们又问我之前公寓的工作人员。但是我也不知道支票长啥样，原来在10月4日的时候，lanlan就收到了我的支票，然后我不知道那是支票，她确实给我发了照片，怪我太年起。
 - officer 说10月20号过期，当我知道那张支票在lanlan那里的时候已经15号了，然而lanlan工作太忙，周末银行又不开门，所以只能麻烦她在19号帮助我转一下，那么20下午2点种就到账了。
-
 
 至此，我的2020年新加坡的缴税 终于结束了，天呐，花了大半年的时间，浪费了我那么多时间和精力。太可怕了，心情也是像过上车一样跌宕起伏。

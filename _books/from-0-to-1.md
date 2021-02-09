@@ -2,10 +2,8 @@
 title: 从0到1
 sidebar:
   title: "我的书单/读书小结/电影观后感"
-  nav: sidebar-sample
+  nav: sidebar-books
 ---
-
-## 《从0到1》
 
 有史以来读书最快的一次了，6天的时间读完一本书真是不容易，也是2019年读的第一本书。
 

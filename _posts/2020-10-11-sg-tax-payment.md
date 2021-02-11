@@ -38,7 +38,7 @@ Note：
 
     |Building/Apartment/Condominium Name|Postal Code|Have ceased employment/about to cease employment in Singapore?|Do you have a tax reference number with IRAS|
     |:------------:                     |:--------: |:--------------------------------------------------------:    |:-----------------------------------------: |
-    |Village Residence Clarke Quay      |059765     |‘YES'                                                         |You may select Yes, as you have a FIN number|
+    |Village Residence Clarke Quay      |059765     |YES                                                           |You may select Yes, as you have a FIN number|
 
 ### 充值DBS账户
 

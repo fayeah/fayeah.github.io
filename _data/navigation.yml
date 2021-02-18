@@ -14,10 +14,10 @@ main:
   #   url: /collection-archive-grid/
   # - title: "Posts by Tag"
   #   url: /collection-archive-grid/
-  - title: "About"
-    url: "about"
-  - title: "Terms"
-    url: /terms/
+  # - title: "About"
+  #   url: "about"
+  # - title: "Terms"
+  #   url: /terms/
 
 sidebar-books:
   - title: "Books"

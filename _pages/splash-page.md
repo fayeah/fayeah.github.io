@@ -1,5 +1,5 @@
 ---
-title: "Photo Page"
+title: "等待完善... ..."
 layout: splash
 permalink: /splash-page/
 date: 2016-03-23T11:48:41-04:00
@@ -9,27 +9,26 @@ header:
   overlay_image: /assets/images/unsplash-image-10.jpg
   actions:
     - label: "Learn More"
-      url: "/terms/"
+      url: "/photos/2019-08-12-tioman/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Travel to whererever is interesting."
 intro: 
   - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path: assets/images/night.jpeg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "布达佩斯那一夜"
+    excerpt: "站在布达城堡上一眼望去，尽是美景。"
   - image_path: /assets/images/chain-bridge.jpeg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    alt: "白天的链桥"
+    title: "白天的链桥"
+    excerpt: "看那蓝天，那白云，那灼热的太阳。"
     url: "/photos/2019-08-12-tioman/"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /assets/images/knight.jpeg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    title: "布达城堡里面军官的骑马演习"
+    excerpt: "运气比较好，刚好遇到骑马演习，庄重，严肃。"
 feature_row2:
   - image_path: /assets/images/shoes.jpeg
     alt: "placeholder image 2"

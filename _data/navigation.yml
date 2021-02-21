@@ -8,8 +8,6 @@ main:
     url: /books/21-days/
   - title: "Photos"
     url: /splash-page/
-  - title: "Videos"
-    url: /video-page/
   # - title: "Posts by Category"
   #   url: /collection-archive-grid/
   # - title: "Posts by Tag"

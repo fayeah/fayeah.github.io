@@ -1,7 +1,7 @@
 ---
-title: 记录比较好的技术文章
+title: 被讨厌的勇气
 sidebar:
-  title: "被讨厌的勇气"
+  title: "我的书单/读书小结/电影观后感"
   nav: sidebar-books
 ---
 

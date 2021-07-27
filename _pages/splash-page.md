@@ -53,6 +53,14 @@ feature_row4:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row5:
+  - image_path: /assets/images/lingshan.jpeg
+    alt: "Beijing 灵山"
+    title: "Beijing 灵山"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}

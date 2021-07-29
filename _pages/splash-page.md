@@ -61,6 +61,14 @@ feature_row5:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+feature_row6:
+  - image_path: /assets/video/wearings.mp4
+    alt: "上班穿搭"
+    title: "上班穿搭"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -74,3 +82,5 @@ feature_row5:
 {% include feature_row id="feature_row4" type="center" %}
 
 {% include feature_row id="feature_row5" type="left" %}
+
+{% include feature_row id="feature_row6" type="right" %}

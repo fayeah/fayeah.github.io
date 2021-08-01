@@ -33,7 +33,7 @@ feature_row2:
   - image_path: /assets/images/shoes.jpeg
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    excerpt: '河边的鞋子，历史的痛。'
     url: "/photos/2019-08-12-tioman/"
     btn_label: "Read More"
     btn_class: "btn--primary"

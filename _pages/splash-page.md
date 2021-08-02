@@ -40,7 +40,7 @@ feature_row2:
 feature_row3:
   - image_path: /assets/images/artist-1.jpeg
     alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
+    title: "海边和小岛是最能让人放松的地方"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
     url: "/photos/2019-09-07-ubin/"
     btn_label: "Read More"

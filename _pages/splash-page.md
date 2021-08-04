@@ -41,7 +41,7 @@ feature_row3:
   - image_path: /assets/images/artist-1.jpeg
     alt: "2019-09-07-ubin"
     title: "海边和小岛是最能让人放松的地方"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
+    excerpt: '海边和小岛是最能让人放松的地方'
     url: "/photos/2019-09-07-ubin/"
     btn_label: "Read More"
     btn_class: "btn--primary"

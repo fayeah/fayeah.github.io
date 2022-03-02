@@ -13,18 +13,6 @@ _**与其说是愿望，倒不如看作是计划，可能更触手可及。今�
 
 ![Reading]({{ site.url }}{{ site.baseurl }}/assets/images/readings.jpeg)
 
-## 证书
-
-#### 软考高项
-
-![高项]({{ site.url }}{{ site.baseurl }}/assets/images/gaoxiang.jpeg)
-
-#### PMP
-
-#### BEC
-
-![BEC]]({{ site.url }}{{ site.baseurl }}/assets/images/BEC.jpeg)
-
 ## 生活规律
 
 ![生活规律]({{ site.url }}{{ site.baseurl }}/assets/images/life-routine.jpeg)
@@ -41,10 +29,14 @@ _**与其说是愿望，倒不如看作是计划，可能更触手可及。今�
 
 ![钢笔字]({{ site.url }}{{ site.baseurl }}/assets/images/writing.jpeg)
 
-## 房屋装修
+## 证书
 
-![房屋装修]({{ site.url }}{{ site.baseurl }}/assets/images/house.jpeg)
+#### 软考高项
 
-## 交一个男朋友(缘分)
+![高项]({{ site.url }}{{ site.baseurl }}/assets/images/gaoxiang.jpeg)
 
-![交一个男朋友]({{ site.url }}{{ site.baseurl }}/assets/images/love.jpeg)
+#### PMP
+
+#### BEC
+
+![BEC]]({{ site.url }}{{ site.baseurl }}/assets/images/bec.jpeg)

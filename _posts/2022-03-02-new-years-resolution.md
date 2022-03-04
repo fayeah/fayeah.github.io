@@ -17,9 +17,9 @@ _**与其说是愿望，倒不如看作是计划，可能更触手可及。今�
 
 ![生活规律]({{ site.url }}{{ site.baseurl }}/assets/images/life-routine.jpeg)
 
-## 换工作
+<!-- ## 换工作
 
-![工作]({{ site.url }}{{ site.baseurl }}/assets/images/2022-job.jpeg)
+![工作]({{ site.url }}{{ site.baseurl }}/assets/images/2022-job.jpeg) -->
 
 ## MBA
 

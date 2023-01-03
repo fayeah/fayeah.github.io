@@ -29,7 +29,7 @@ comments: true
 
 2022年4月11日，瑞幸宣布成功摆脱所有破产程序，回归正常经营状态。
 
-![locky_coffee]({{ site.url }}{{ site.baseurl }}/assets/images/locky_coffee.jpeg)
+![lucky_coffee]({{ site.url }}{{ site.baseurl }}/assets/images/lucky_coffee.jpeg)
 
 **要上市，也得会讲故事！**
 

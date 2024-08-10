@@ -34,6 +34,7 @@ steps:
     run: pnpm run build
   - name: Setup Pages
     uses: actions/configure-pages@v3
+  - run: mkdir tmp-dir && mv dist tmp-dir/ && mv tmp-dir dist
   - name: Upload artifact
     uses: actions/upload-pages-artifact@v1
     with:
